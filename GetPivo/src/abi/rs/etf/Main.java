@@ -10,7 +10,7 @@ import java.util.StringTokenizer;
 
 public class Main {
 	public static final int num = 6;
-	private static final String filePath = "C:\\Users\\Abi\\Documents\\workspace\\GetPivo\\data.txt";
+	private static final String filePath = "C:\\Users\\Abi\\Desktop\\git\\GetPivo\\GetPivo\\data.txt";
 	public static Person[] everybody = new Person[num];
 
 	public static void readFile() {
