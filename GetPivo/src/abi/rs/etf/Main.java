@@ -10,10 +10,11 @@ import java.util.StringTokenizer;
 
 public class Main {
 	public static final int num = 6;
-	private static final String filePath = "C:\\Users\\Abi\\Desktop\\git\\GetPivo\\GetPivo\\data.txt";
+	private static final String filePath = new File("GetPivo\\data.txt").getAbsolutePath();
 	public static Person[] everybody = new Person[num];
 
 	public static void readFile() {
+		System.out.println(filePath);
 		BufferedReader br = null;
 		String fromFile = null;
 		try {
